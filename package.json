@@ -1,0 +1,35 @@
+{
+  "name": "gigslance-backend",
+  "version": "1.0.0",
+  "description": "A marketplace that connects skilled talents to small businesses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "freelance",
+    "marketplace",
+    "gigslance"
+  ],
+  "author": "David Oduse",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.2.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.3",
+    "passport": "^0.6.0",
+    "redis": "^4.6.7",
+    "socket.io": "^4.6.2",
+    "winston": "^3.9.0"
+  }
+}
